@@ -9,16 +9,43 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@heroicons/react": "^2.1.5",
+    "@material-tailwind/react": "^2.1.9",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@preline/overlay": "^2.4.0",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
+    "@splinetool/react-spline": "^4.0.0",
+    "@tabler/icons-react": "^3.10.0",
+    "@types/three": "^0.166.0",
+    "badge-maker": "^4.0.0",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "framer-motion": "^11.2.13",
+    "icons-react": "^3.7.1",
+    "lucide-react": "^0.414.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "14.2.4",
+    "preline": "^2.4.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-icons": "^5.2.1",
+    "simple-icons": "^13.0.0",
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.166.1",
+    "three-globe": "^2.31.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/forms": "^0.5.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "daisyui": "^4.12.10",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
