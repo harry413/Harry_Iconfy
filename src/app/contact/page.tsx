@@ -1,25 +1,30 @@
-"use client"
+"use client";
 import React from "react";
-import Image from "next/image"
+import Image from "next/image";
 import { IconHome } from "@tabler/icons-react";
 
-export default function Contact () {
+export default function Contact() {
   return (
     <>
       <section className="relative z-10 overflow-hidden px-8 md:px-20 py-20 bg-gray-900 lg:py-[30px] ">
-      <div className="max-w-2xl mx-auto p-2 flex items-center justify-center pb-20">
-          <Image src='/assets/exp4.svg' alt='logo' width={100} height={100} className='relative md:mr-2 flex items-center justify-center ' />
-            <h1 className="relative z-10 text-4xl md:text-4xl font-serif bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-bold">
-              Harry_Iconfy
-            </h1>
-          </div>
+        <div className="max-w-2xl mx-auto p-2 flex items-center justify-center pb-20">
+          <Image
+            src="/assets/exp4.svg"
+            alt="logo"
+            width={100}
+            height={100}
+            className="relative md:mr-2 flex items-center justify-center "
+          />
+          <h1 className="relative z-10 text-4xl md:text-4xl font-serif bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-bold">
+            Harry_Iconfy
+          </h1>
+        </div>
         <div className="container">
-            <a href='/' className='flex items-center gap-2 mb-2'>
-               <IconHome className="h-5 w-5 text-white dark:text-black" />
-               <span className='text-gray-300 hover:underline'>Back to home</span>
-            </a>
+          <a href="/" className="flex items-center gap-2 mb-2">
+            <IconHome className="h-5 w-5 text-white dark:text-black" />
+            <span className="text-gray-300 hover:underline">Back to home</span>
+          </a>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
-            
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <span className="mb-4 block text-base font-semibold text-primary">
@@ -40,7 +45,7 @@ export default function Contact () {
                       height="32"
                       viewBox="0 0 32 32"
                       fill="none"
-                      className='rounded-l-lg rounded-r-md'
+                      className="rounded-l-lg rounded-r-md"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -973,16 +978,19 @@ export default function Contact () {
       </section>
     </>
   );
-};
+}
 
-
-
-function ContactTextArea({ row, placeholder, name, defaultValue }:{
-  row:number;
-  placeholder:string;
-  name:string;
-  defaultValue:number
-}){
+function ContactTextArea({
+  row,
+  placeholder,
+  name,
+  defaultValue,
+}: {
+  row: number;
+  placeholder: string;
+  name: string;
+  defaultValue: number;
+}) {
   return (
     <>
       <div className="mb-6">
@@ -996,12 +1004,16 @@ function ContactTextArea({ row, placeholder, name, defaultValue }:{
       </div>
     </>
   );
-};
+}
 
-function ContactInputBox ({ type, placeholder, name }:{
-  type:string;
-   placeholder:string;
-    name:string
+function ContactInputBox({
+  type,
+  placeholder,
+  name,
+}: {
+  type: string;
+  placeholder: string;
+  name: string;
 }) {
   return (
     <>
@@ -1015,4 +1027,4 @@ function ContactInputBox ({ type, placeholder, name }:{
       </div>
     </>
   );
-};
+}
