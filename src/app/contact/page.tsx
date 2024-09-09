@@ -152,7 +152,6 @@ export default function Contact() {
                     row={6}
                     placeholder="Your Message"
                     name="details"
-                    defaultValue={1}
                   />
                   <div>
                     <button
@@ -984,12 +983,12 @@ function ContactTextArea({
   row,
   placeholder,
   name,
-  defaultValue,
+ 
 }: {
   row: number;
   placeholder: string;
   name: string;
-  defaultValue: number;
+  
 }) {
   return (
     <>
@@ -999,7 +998,7 @@ function ContactTextArea({
           placeholder={placeholder}
           name={name}
           className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-black outline-none focus:border-primary dark:border-dark-3 bg-slate-300 dark:text-dark-6"
-          defaultValue={defaultValue}
+          
         />
       </div>
     </>

@@ -28,14 +28,14 @@ export default function BackgroundBoxesDemo() {
         </div>    
           <div className="relative drop-shadow-xl w-48  h-48 overflow-hidden rounded-xl bg-[#3d3c3d] backdrop-blur-md">
             <div className="absolute flex p-2 justify-end flex-col w-full text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132] ">
-             <p>card</p>
+             <p>3D icons</p>
              <Link href='/docs' className='relative text-white px-4 py-2 text-sm text-center bg-gradient-to-b from-neutral-700 to-neutral-900 rounded-md  '>Get start</Link>
             </div>
             <div className="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
           </div>
           <div  className="relative drop-shadow-xl w-48 h-48 overflow-hidden rounded-xl bg-[#3d3c3d] backdrop-blur-md">
             <div className="absolute flex flex-col justify-end w-full p-2 text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132] ">
-             <p>Skills Icons</p>
+             <p>Illustration</p>
              <Link href='/docs' className='relative text-white px-4 py-2 text-sm text-center bg-gradient-to-b from-neutral-700 to-neutral-900 rounded-md' >Get start</Link>
             </div>
             <div className="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>

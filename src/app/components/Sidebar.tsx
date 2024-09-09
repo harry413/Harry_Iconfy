@@ -71,7 +71,6 @@ export default function Sidebar() {
                 Get started
               </a>
             </li>
-
             <li>
               <a
                 className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600"
@@ -95,8 +94,8 @@ export default function Sidebar() {
                 Documentation
               </a>
             </li>
-
-            <li className="hs-accordion" id="account-accordion">
+            <li 
+              className="hs-accordion" id="account-accordion">
               <button
                 type="button"
                 className="hs-accordion-toggle hs-accordion-active:text-white hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
@@ -168,7 +167,7 @@ export default function Sidebar() {
                   <li>
                     <a
                       className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
+                      href="/docs/icons"
                     >
                       Skill icons
                     </a>
@@ -176,104 +175,57 @@ export default function Sidebar() {
                   <li>
                     <a
                       className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
+                      href="/docs/icons"
                     >
-                      icons logo
+                      Illustration
                     </a>
                   </li>
                   <li>
                     <a
                       className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
+                      href="/docs/icons"
+                    >
+                      Vector
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
+                      href="/docs/icons"
+                    >
+                      3D icons
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
+                      href="/docs/icons"
+                    >
+                      Vector
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
+                      href="/docs/icons"
+                    >
+                      Brands
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
+                      href="/docs/icons"
+                    >
+                      Svg
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
+                      href="/docs/icons"
                     >
                       Random
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li className="hs-accordion" id="projects-accordion">
-              <button
-                type="button"
-                className="hs-accordion-toggle hs-accordion-active:text-white hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                aria-expanded="true"
-                aria-controls="projects-accordion"
-              >
-                <svg
-                  className="size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M15.5 2H8.6c-.4 0-.8.2-1.1.5-.3.3-.5.7-.5 1.1v12.8c0 .4.2.8.5 1.1.3.3.7.5 1.1.5h9.8c.4 0 .8-.2 1.1-.5.3-.3.5-.7.5-1.1V6.5L15.5 2z" />
-                  <path d="M3 7.6v12.8c0 .4.2.8.5 1.1.3.3.7.5 1.1.5h9.8" />
-                  <path d="M15 2v5h5" />
-                </svg>
-                Components
-                <svg
-                  className="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="m18 15-6-6-6 6" />
-                </svg>
-                <svg
-                  className="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-              <div
-                id="projects-accordion"
-                className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden"
-                role="region"
-                aria-labelledby="projects-accordion"
-              >
-                <ul className="pt-2 ps-2">
-                  <li>
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
-                    >
-                      Component 1
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
-                    >
-                      Component 2
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-300 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-700"
-                      href="#"
-                    >
-                      Component 3
                     </a>
                   </li>
                 </ul>
